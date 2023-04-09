@@ -16,7 +16,7 @@ To take quiz directly, follow next link:
 
 https://ogbash03.github.io/js_quiz_challenge/
 
- ![coding-quiz-challenge](assets/pictures/coding-quiz-challenge.PNG)
+ ![coding-quiz-challenge](assets/pics/coding-quiz-challenge.PNG)
 
 
 ## Credits
