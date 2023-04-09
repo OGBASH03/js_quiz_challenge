@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <!-- Bootstrap Link-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
     <title>Code Quiz</title>
 </head>
+
 <body>
-    <header id="head" >
+    <header id="head">
         <div>
             <button class="btnHeader" id="checkScores">View Highscores</button>
         </div>
@@ -21,31 +23,33 @@
     </header>
     <section id="introduction">
         <h1> Coding Quiz Challenge </h1>
-        <p> Try to answer the following code-related questions within the time
-            limit. Keep in mind that incorrect answers will penalize your scoretime
-             by ten seconds!
+        <p> Get ready for some code-crunching fun! Answer the following questions within the given time limit, but
+            beware: incorrect answers will cost you an extra 10 seconds! So stay sharp and aim for the highest score
+            possible!
         </p>
-        <button id ="start-quiz" class="btn btn-primary"> Start Quiz </button>
+        <button id="start-quiz" class="btn btn-primary"> Start Quiz </button>
     </section>
 
-    <section id="question" class ="hide">
+    <section id="question" class="hide">
 
     </section>
 
-    <section id="scores" class = "hide">
+    <section id="scores" class="hide">
         <h3> All done!</h3>
-        <p> Your final score is <span id="finalscore"></span>   </p>
-        Enter initials <input id = "user"> <button id="playerscore" class="btn btn-primary"> Submit </button>
+        <p> Your final score is <span id="finalscore"></span> </p>
+        Enter initials <input id="user"> <button id="playerscore" class="btn btn-primary"> Submit </button>
     </section>
 
-    <section id="highscores" class = "hide">
+    <section id="highscores" class="hide">
         <h4> Highscores </h4>
         <br>
         <ol id="winners"></ol>
         <br>
-        
-        <button id = "back" class="btn btn-primary"> Go Back </button> <button id="clear" class="btn btn-primary"> Clear Highscores</button>
+
+        <button id="back" class="btn btn-primary"> Go Back </button> <button id="clear" class="btn btn-primary"> Clear
+            Highscores</button>
     </section>
-    <script src="./assets/js/script.js"></script>
+    <script src="/assets/js/index.js"></script>
 </body>
+
 </html>

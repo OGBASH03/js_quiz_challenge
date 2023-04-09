@@ -43,7 +43,7 @@ var winners = document.getElementById("winners")
 var timeRemaining = questionArray.length * 15;
 var clockId;
 // THIS FUNCTION ALLOWS THE QUIZ AND THE TIMER TO START
-startButtom.addEventListener("click", function () {
+startBtn.addEventListener("click", function () {
     intro.classList.add("hide");
     questions.classList.remove("hide");
     clockId = setInterval(startTimer, 1000)
