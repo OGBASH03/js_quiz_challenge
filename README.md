@@ -1,8 +1,8 @@
-# JAVA
+# JAVASCRIPT QUIZ
 
 ## Description
 
-This repository contains a simple quiz application built with Python. The app asks the user multiple-choice questions and gives feedback on whether the answer is correct or incorrect.
+This repository contains a simple quiz application built with Java Script, HTML, & CSS. The app asks the user multiple-choice questions and gives feedback on whether the answer is correct or incorrect.
 
 
 ## Usage
