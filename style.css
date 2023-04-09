@@ -1,0 +1,225 @@
+/* Styles created for the Html and also some provided by BootStrap */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+ 
+ .hide {
+ 
+ 
+    display: none;
+ 
+ 
+ 
+ 
+ }
+ 
+ 
+ body {
+    background-color: antiquewhite;
+ 
+ 
+ }
+ 
+ 
+ header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+    color: green;
+    height: 60px;
+    font-size: 2vw;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+ 
+ 
+ 
+ 
+ }
+ 
+ 
+ .btnHeader {
+    background-color: white;
+    text-decoration: none;
+    border: none;
+    color: blue;
+}
+
+
+.btnHeader:hover {
+
+
+   color: green;
+
+
+}
+
+
+header div p {
+
+
+   text-align: right;
+
+
+}
+
+
+#introduction {
+
+
+   font-size: 125%;
+   text-align: center;
+   margin-left: 30%;
+   margin-right: 30%;
+   margin-top: 80px;
+}
+
+
+h1 {
+   font-size: 200%;
+}
+
+
+#start-quiz {
+
+
+   background-color: rgb(18, 14, 233);
+}
+
+
+#start-quiz:hover{
+
+
+   background-color: green;
+}
+
+
+#playerscore {
+
+
+   background-color: orange;
+}
+#playerscore:hover{
+
+
+    background-color: blue;
+ }
+ 
+ 
+ #back {
+ 
+ 
+    background-color: blueviolet;
+ }
+ 
+ 
+ #back:hover{
+ 
+ 
+    background-color: blue;
+ }
+ 
+ 
+ #clear {
+ 
+ 
+    background-color: green;
+ }
+ 
+ 
+ #clear:hover{
+ 
+ 
+    background-color: blue;
+ }
+ 
+ 
+ #question {
+ 
+ 
+    margin-left: 30%;
+    margin-right: 30%;
+    justify-content: center;
+    margin-top: 80px;
+ 
+ 
+ }
+ 
+ 
+ #scores {
+   
+    font-size: 125%;
+    margin-left: 30%;
+    margin-right: 30%;
+    justify-content: center;
+    margin-top: 150px;
+ }
+ 
+ 
+ #highscores {
+ 
+ 
+    margin-left: 35%;
+    margin-right: 30%;
+    justify-content: center;
+    margin-top: 150px;
+ 
+ 
+ }
+ 
+ 
+ #highscores ol li {
+    color: white;
+    background: orange;
+    padding: 5px;
+ }
+ 
+ 
+ ol {
+    list-style: none;
+    counter-reset: item;
+ }
+ 
+ 
+ li {
+    counter-increment: item;
+    margin-bottom: 5px;
+ 
+ 
+ }
+ 
+ 
+ button.btn.btn-secondary {
+    width:fit-content;
+    background-color: blueviolet;
+ }
+ 
+ 
+ button.btn.btn-secondary:hover{
+ 
+ 
+    background-color: blue;
+ }
+ #question p {
+    color:blueviolet;
+    font-weight: bold;
+    font-size: 50px;
+ 
+ 
+ }
+ 
+ 
+ hr {
+ 
+ 
+    background-color: green;
+    font-weight: bold;
+ 
+ 
+ }
+ 
+ 

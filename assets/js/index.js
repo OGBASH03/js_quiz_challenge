@@ -166,3 +166,35 @@ var backButton = document.getElementById("back");
 var clearScores = document.getElementById("clear");
 
 
+//FUNCTION IS TO START OVER THE QUIZ
+backButton.addEventListener("click", function () {
+    location.reload();
+ })
+ 
+ 
+ //FUNCTION CLEARS THE HISCORES
+ clearScores.addEventListener("click", function () {
+    localStorage.setItem("highscore", JSON.stringify([]))
+    winners.innerHTML = "";
+ 
+ 
+ })
+ 
+ 
+ var checkScores = document.getElementById("checkScores");
+ 
+ 
+ //FUNCTION CHECKS THE PREVIOUS SCORES
+ checkScores.addEventListener("click", function () {
+    intro.classList.add("hide");
+    questions.classList.add("hide");
+    scores.classList.add("hide");
+    head.classList.add("hide");
+    hiScores.classList.remove("hide");
+    winners.innerHTML = "";
+    for (var i = 0; i < scoresArray.length; i++) {
+        var li = document.createElement("li");
+        li.textContent = scoresArray[i];
+        winners.appendChild(li);
+    }
+ }) 
